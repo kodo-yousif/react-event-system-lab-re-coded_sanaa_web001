@@ -1,6 +1,6 @@
 import React from 'react';
 
-class EyesOnMe extends React.Component {
+export default class EyesOnMe extends React.Component {
 
   onFocus = () => console.log('Good!')
 
@@ -14,5 +14,3 @@ class EyesOnMe extends React.Component {
     )
   }
 }
-
-export default EyesOnMe;
